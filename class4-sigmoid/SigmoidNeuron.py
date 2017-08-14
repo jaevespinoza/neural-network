@@ -30,3 +30,13 @@ class SigmoidNeuron:
 
     def printWeight(self):
         print "weight1: " + str(self.weight1) + ", weight2: " + str(self.weight2)
+
+    def learn(self,x,y,real):
+        calculatedout = self.calculate(x, y)
+
+        if calculatedout == 0 and real == 1:
+            self.setWeight1(self.getWeight1() + 0.01 * x)
+            self.setWeight2(self.getWeight2() + 0.01 * y)
+        elif calculatedout == 1 and real == 0:
+            self.setWeight1(self.getWeight1() - 0.01 * x)
+            self.setWeight2(self.getWeight2() - 0.01 * y)
