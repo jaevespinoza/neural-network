@@ -7,7 +7,7 @@ class NetworkCreator():
     def __init__(self):
         self.network = Network()
 
-    def createNet(self, layernumber, listofneurons, weightnumber, range1,range2,bias1,bias2):
+    def createNet(self, layernumber, listofneurons, listofweightnumber, range1,range2,bias1,bias2):
         layerl = []
         '''crear layer'''
         for i in range(layernumber):
@@ -16,7 +16,7 @@ class NetworkCreator():
             for j in range(listofneurons[i]):
                 weightl = []
 
-                for k in range(weightnumber):
+                for k in range(listofweightnumber[i]):
                     weight = random.randint(range1,range2)
                     weightl.append(weight)
 

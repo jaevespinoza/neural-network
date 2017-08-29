@@ -1,3 +1,6 @@
+from math import exp
+
+
 class Neuron:
     def __init__(self, d, b, w = None):
         if w is None:
@@ -12,9 +15,11 @@ class Neuron:
         tot = 0
         for i in range(len(self.weightlist)):
             tot += self.weightlist[i]*inputl[i]
+        tot += self.bias
 
-        if tot > 0:
-            self.output = 1
+        expon = exp(tot * -1)
+        self.output = 1/(1+expon)
+        if self.output > 0.9:
             return 1
         else:
             return 0
@@ -24,6 +29,8 @@ class Neuron:
             self.weightlist[i] += learning*self.delta*inputs[i]
 
 
+    def getOutput(self):
+        return self.output
 
     def transferDerivative(self):
         return self.output*(1.0-self.output)

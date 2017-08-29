@@ -7,29 +7,27 @@ class NeuronLayer:
         self.nextlayer = nl
 
     def backPropagationErrorLast(self, expected):
-            error = expected - self.neurons[0].output
-            for i in range(len(self.neurons)):
-                self.neurons[i].adjustDeltaWithError(error)
-            if self.previouslayer is not None:
-                self.previouslayer.backPropagationError()
+        for i in range(len(self.neurons)):
+            error = expected[i] - self.neurons[i].getOutput()
+            self.neurons[i].adjustDeltaWithError(error)
+        if not self.isFirst():
+            self.previouslayer.backPropagation()
 
     def backPropagation(self):
         for i in range(len(self.neurons)):
             error = 0
             for j in range(len(self.nextlayer.neurons)):
-                error += self.nextlayer.neurons[j].weightlist[i]*self.nextlayer.neurons[j].delta
+                error += self.nextlayer.neurons[j].weightlist[i]*self.nextlayer.neurons[j].getDelta()
             self.neurons[i].adjustDeltaWithError(error)
         if not self.isFirst():
-            self.backPropagation()
+            self.previouslayer.backPropagation()
 
 
 
     def evaluate(self, inputs):
         output = []
-        self.toString()
         for i in range(len(self.neurons)):
             output.append(self.neurons[i].evaluate(inputs))
-
         if self.isLast():
             return output
         else:
@@ -37,12 +35,24 @@ class NeuronLayer:
 
 
     def updateWeight(self, inputs):
-        learning = 0.5
+        learning = 0.7
         for i in range(len(self.neurons)):
             self.neurons[i].adjustWeightWithInput(inputs,learning)
             self.neurons[i].adjustBiasUsingLearningRate(learning)
         if not self.isLast():
             self.nextlayer.updateWeight(self.getOutputs())
+
+    def meanAbsoluteError(self, expected):
+        error = 0.0
+        for i in range(len(self.neurons)):
+            error += abs(expected[i] - self.neurons[i].getOutput())
+        return error/len(self.neurons)
+
+    def meanAbsoluteError(self, expected):
+        error = 0.0
+        for i in range(len(self.neurons)):
+            error += (expected[i] - self.neurons[i].getOutput())^2
+        return error/len(self.neurons)
 
 
 

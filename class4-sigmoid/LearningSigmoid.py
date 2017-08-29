@@ -26,7 +26,7 @@ for i in range(10000):
         outputlist.append(0)
 
 for i in range(10000):
-    perc.learn(xlist[i-1], ylist[i-1], outputlist[i-1])
+    perc.learn(xlist[i], ylist[i], outputlist[i])
     weight1list.append(perc.getWeight1())
     weight2list.append(perc.getWeight2())
 

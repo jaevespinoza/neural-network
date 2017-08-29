@@ -1,7 +1,6 @@
-from Neuron import *
-from NeuronLayer import *
-from Network import *
 from NetworkCreator import *
+import time
+
 '''
 neur = Neuron(-1,0,0,[3,2,1])
 neur2 = Neuron(-2,0,0,[2,-1,0])
@@ -14,6 +13,30 @@ net = Network(neurlayer)
 
 print net.evaluate([0,0,1])
 '''
+xlist = []
+ylist = []
+outputlist = []
 netc = NetworkCreator()
-net = netc.createNet(2,[3,2],3,-5,5,-3,-3)
-print net.evaluate([0,1,1])
+net = netc.createNet(2,[2,1],[2,2],1,5,1,5)
+
+for i in range(1000000):
+    x = random.randint(0,1)
+    y = random.randint(0,1)
+    xlist.append(x)
+    ylist.append(y)
+    if x|y == 1:
+        outputlist.append(0)
+    else:
+        outputlist.append(1)
+
+start_time = time.time()
+for i in range(1000000):
+    net.train([xlist[i],ylist[i]], [outputlist[i]])
+
+print "--- %s seconds to train ---" % (time.time() - start_time)
+
+print net.evaluate([1,1])
+print net.evaluate([1,0])
+print net.evaluate([0,1])
+print net.evaluate([0,0])
+

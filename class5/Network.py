@@ -25,3 +25,4 @@ class Network:
         output = self.evaluate(setinput)
         self.backpropagation(setoutputs)
         self.updateWeight(setinput)
+
