@@ -5,6 +5,7 @@ class NeuronLayer:
         self.number = number
         self.neurons = n
         self.nextlayer = nl
+        self.firstneurons = n
 
     def backPropagationErrorLast(self, expected):
         for i in range(len(self.neurons)):
@@ -15,7 +16,7 @@ class NeuronLayer:
 
     def backPropagation(self):
         for i in range(len(self.neurons)):
-            error = 0
+            error = 0.0
             for j in range(len(self.nextlayer.neurons)):
                 error += self.nextlayer.neurons[j].weightlist[i]*self.nextlayer.neurons[j].getDelta()
             self.neurons[i].adjustDeltaWithError(error)
@@ -41,6 +42,7 @@ class NeuronLayer:
             self.neurons[i].adjustBiasUsingLearningRate(learning)
         if not self.isLast():
             self.nextlayer.updateWeight(self.getOutputs())
+
 
     def meanAbsoluteError(self, expected):
         error = 0.0
@@ -85,10 +87,14 @@ class NeuronLayer:
     def getOutputs(self):
         lista = []
         for i in range(len(self.neurons)):
-            lista.append(self.neurons[i].output)
+            lista.append(self.neurons[i].getOutput())
         return lista
 
     def getLastLayer(self):
         if self.isLast():
             return self
         return self.nextlayer.getLastLayer()
+
+    def getFirstNeurons(self):
+        return self.firstneurons
+

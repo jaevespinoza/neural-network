@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0d7e13d-4681-492f-b9e6-5d079268f148" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class5/TestingNet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class5/Normal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea1/TicTacToe.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/class5/Example.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py" afterPath="$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/Example.py" afterPath="$PROJECT_DIR$/class5/Example.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/Network.py" afterPath="$PROJECT_DIR$/class5/Network.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/NetworkCreator.py" afterPath="$PROJECT_DIR$/class5/NetworkCreator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/Neuron.py" afterPath="$PROJECT_DIR$/class5/Neuron.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/NeuronLayer.py" afterPath="$PROJECT_DIR$/class5/NeuronLayer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/TestingNet.py" afterPath="$PROJECT_DIR$/class5/TestingNet.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,33 +19,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testXor.coverage" NAME="Unittests for TestingNet.TestingNet.testXor Coverage Results" MODIFIED="1504121183484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestPerceptronSigmoid_testAnd.coverage" NAME="Unittests for TestingNet.TestPerceptronSigmoid.testAnd Coverage Results" MODIFIED="1504035005548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Example.coverage" NAME="Example Coverage Results" MODIFIED="1504106574370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testAnd.coverage" NAME="Unittests for TestingNet.TestingNet.testAnd Coverage Results" MODIFIED="1504122832707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_in_TestingNet_py.coverage" NAME="Unittests in TestingNet.py Coverage Results" MODIFIED="1504123128629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Plot.coverage" NAME="Plot Coverage Results" MODIFIED="1504381785564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
+    <SUITE FILE_PATH="coverage/neural_network$Haberman.coverage" NAME="Haberman Coverage Results" MODIFIED="1504062809978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
+    <SUITE FILE_PATH="coverage/neural_network$Network.coverage" NAME="Network Coverage Results" MODIFIED="1504393194492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$TicTacToe.coverage" NAME="TicTacToe Coverage Results" MODIFIED="1504395414019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testOr.coverage" NAME="Unittests for TestingNet.TestingNet.testOr Coverage Results" MODIFIED="1504066471184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Epoch.coverage" NAME="Epoch Coverage Results" MODIFIED="1504034120037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Sigmoid100.coverage" NAME="Sigmoid100 Coverage Results" MODIFIED="1504031677157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class4-sigmoid" />
-    <SUITE FILE_PATH="coverage/neural_network$Example.coverage" NAME="Example Coverage Results" MODIFIED="1504034666226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Poker.coverage" NAME="Poker Coverage Results" MODIFIED="1504132024210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
     <SUITE FILE_PATH="coverage/neural_network$LearningSigmoid.coverage" NAME="LearningSigmoid Coverage Results" MODIFIED="1503940096560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class4-sigmoid" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NetworkCreator.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class5/NetworkCreator.py">
+      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tarea1/TicTacToe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            <state relative-caret-position="1152">
+              <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogicalSigmoid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/class4-sigmoid/LogicalSigmoid.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>learningrate</find>
+      <find>old</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,13 +72,19 @@
         <option value="$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py" />
         <option value="$PROJECT_DIR$/class4-sigmoid/SigmoidNeuron.py" />
         <option value="$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py" />
-        <option value="$PROJECT_DIR$/class5/NetworkCreator.py" />
-        <option value="$PROJECT_DIR$/class5/Network.py" />
-        <option value="$PROJECT_DIR$/class5/Neuron.py" />
-        <option value="$PROJECT_DIR$/class5/NeuronLayer.py" />
         <option value="$PROJECT_DIR$/class5/Epoch.py" />
+        <option value="$PROJECT_DIR$/tarea1/Haberman.py" />
         <option value="$PROJECT_DIR$/class5/Example.py" />
         <option value="$PROJECT_DIR$/class5/TestingNet.py" />
+        <option value="$PROJECT_DIR$/class5/Chess.py" />
+        <option value="$PROJECT_DIR$/tarea1/Poker.py" />
+        <option value="$PROJECT_DIR$/tarea1/Plot.py" />
+        <option value="$PROJECT_DIR$/class5/NeuronLayer.py" />
+        <option value="$PROJECT_DIR$/class5/NetworkCreator.py" />
+        <option value="$PROJECT_DIR$/class5/Neuron.py" />
+        <option value="$PROJECT_DIR$/class5/Network.py" />
+        <option value="$PROJECT_DIR$/class5/Functions.py" />
+        <option value="$PROJECT_DIR$/tarea1/TicTacToe.py" />
       </list>
     </option>
   </component>
@@ -91,10 +95,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="72" />
-    <option name="width" value="1281" />
-    <option name="height" value="676" />
+    <option name="x" value="87" />
+    <option name="y" value="17" />
+    <option name="width" value="1279" />
+    <option name="height" value="668" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -111,8 +115,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,6 +138,11 @@
               <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
               <item name="neural-network" type="462c0819:PsiDirectoryNode" />
               <item name="class5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="neural-network" type="462c0819:PsiDirectoryNode" />
+              <item name="tarea1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,8 +166,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for TestingNet.TestPerceptronSigmoid.testAnd">
-    <configuration name="Epoch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TicTacToe">
+    <configuration name="Network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -171,66 +180,66 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class5/Epoch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class5/Network.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class5/Example.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea1/Plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="LearningSigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Poker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class4-sigmoid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea1/Poker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Sigmoid100" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class4-sigmoid" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea1/TicTacToe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Unittests for TestingNet.TestPerceptronSigmoid.testAnd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in TestingNet.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -242,23 +251,23 @@
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestingNet.TestPerceptronSigmoid.testAnd&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/class5/TestingNet.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.LearningSigmoid" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Sigmoid100" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Example" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Epoch" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for TestingNet.TestPerceptronSigmoid.testAnd" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestingNet.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Poker" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TicTacToe" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Plot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Network" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TestingNet.TestPerceptronSigmoid.testAnd" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Epoch" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Sigmoid100" />
-        <item index="4" class="java.lang.String" itemvalue="Python.LearningSigmoid" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TicTacToe" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Network" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Plot" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Poker" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestingNet.py" />
       </list>
     </recent_temporary>
   </component>
@@ -276,24 +285,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_TestingNet_TestPerceptronSigmoid_testAnd - 2017.08.29 at 16h 28m 50s.xml">
-      <configuration name="Unittests for TestingNet.TestPerceptronSigmoid.testAnd" configurationId="tests" />
+    <history-entry file="Unittests_for_TestingNet_TestingNet_testAnd - 2017.08.30 at 16h 53m 53s.xml">
+      <configuration name="Unittests for TestingNet.TestingNet.testAnd" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_TestingNet_TestPerceptronSigmoid_testAnd - 2017.08.29 at 16h 31m 08s.xml">
-      <configuration name="Unittests for TestingNet.TestPerceptronSigmoid.testAnd" configurationId="tests" />
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 26m 29s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 26m 33s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 26m 40s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 30m 17s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 30m 23s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 30m 28s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 31m 54s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 54m 01s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestingNet_py - 2017.08.30 at 16h 58m 51s.xml">
+      <configuration name="Unittests in TestingNet.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="72" width="1303" height="780" extended-state="6" />
+    <frame x="87" y="17" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2490392" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.487988" sideWeight="0.43274406" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43543544" sideWeight="0.567256" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -339,37 +372,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class5/NetworkCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/NeuronLayer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="101" lean-forward="false" selection-start-line="19" selection-start-column="101" selection-end-line="19" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class5/Neuron.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -382,9 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,9 +396,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -425,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -443,9 +442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -484,9 +481,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,9 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,88 +635,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Network.py">
+    <entry file="file://$PROJECT_DIR$/class5/Epoch.py" />
+    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LogicalSigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="108">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5/NeuronLayer.py">
+    <entry file="file://$PROJECT_DIR$/tarea1/Haberman.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/unittest2/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="139">
+          <caret line="828" column="0" lean-forward="false" selection-start-line="828" selection-start-column="0" selection-end-line="828" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5/Example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5/Chess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5/TestingNet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea1/Poker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea1/Plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class5/NetworkCreator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class5/Neuron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="-848">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Epoch.py">
+    <entry file="file://$PROJECT_DIR$/class5/NeuronLayer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="-396">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py">
+    <entry file="file://$PROJECT_DIR$/class5/Normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LogicalSigmoid.py">
+    <entry file="file://$PROJECT_DIR$/class5/Network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="115">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class5/TestingNet.py">
+    <entry file="file://$PROJECT_DIR$/tarea1/TicTacToe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="1152">
+          <caret line="64" column="28" lean-forward="true" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/NetworkCreator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

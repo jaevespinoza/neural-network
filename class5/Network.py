@@ -26,3 +26,22 @@ class Network:
         self.backpropagation(setoutputs)
         self.updateWeight(setinput)
 
+    def printChanges(self):
+        firstl = []
+        first = self.firstlayer
+        while first is not None:
+            firstl.append(first.getNeurons())
+            first = first.getNext()
+        for i in range(len(firstl)):
+            print "layer " + str(i)
+            for j in range(len(firstl[i])):
+                print "node " + str(j)
+                old = firstl[i][j].getOld()
+                new = firstl[i][j].getWeight()
+                for k in range(len(old)):
+                    print "weight " + str(k)
+                    print old[k], new[k]
+                print "----------- pesos completado ------------ "
+            print "------------ nodos completados --------------"
+        print "----------- layer completado -----------------"
+
