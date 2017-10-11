@@ -1,0 +1,32 @@
+Genetic Algorithm:
+
+Adaptarse a las variaciones de la vida.
+Los más fuertes viven y los débiles mueren o no siguen.
+
+Tenemos una populación, y de ellos seleccionamos padres (natural o no natural), y con estos
+padres, se hace una reproducción donde creamos nuevos elementos que reemplazan la populación inicial.
+
+Muchos algoritmos de evolución. EJ: Optimización de colonias de hormigas.
+
+Algoritmo de evolución:
+
+tenemos x[t+1] = v(s(x[t])) donde v es una variación y s es una selección.
+x[t] es la populacion en el tiempo t de una representación x.
+
+Muchas ventajas:
+ofrecer un framework tal que es facil de incorporar al problema sin conocer el problema.
+puede ser combinado con otros algoritmos de optimizacion (pesos de redes neuronales)
+
+Tecnica de computación evolucionaria que reesuelve problemas.
+Se considera como metodo de optimización
+
+Inicializamos populación. Vemos el fitness de la populación. Si el problema se resuelve, se
+termina, pero si no, se debe hacer una selección, reproducción y luego hacer el mismo fitness check.
+
+Propiedades:
+Heredity: un hijo recibe las propiedades de sus padres.
+variacion: algunas variacines pueden ser introducidas en los hijos. los hijos no deben ser una
+copia identica
+
+seleccion: algunos miembros debes tener la oportunidad de ser padres para pasar su información
+genética.

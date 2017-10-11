@@ -6,10 +6,16 @@ from class5.Normal import *
 net = NetworkCreator()
 trueinput = []
 trueoutput = []
-pokernet = net.createNet(4, [9, 7,5,2], [9, 9, 7,5], -3, 3, -1, 1)
+pokernet = net.createNet(3, [9,7,9], [9, 9, 7], -3, 3, -1, 1)
 m = 0
+
+
+epochs = 1000
+
+
+
 file_result = open("result.txt","w")
-for i in range(500):
+for i in range(epochs):
     file_red = open("tictactoe.txt", "r")
     filelist = file_red.readlines()
     for line in filelist:
@@ -62,6 +68,6 @@ lista = []
 file_read = open("result.txt","r")
 for i in file_read:
     lista.append(float(i.replace("\n","")))
-plt.plot(range(3000), lista)
+plt.plot(range(epochs), lista)
 plt.show()
 

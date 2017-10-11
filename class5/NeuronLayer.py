@@ -36,7 +36,7 @@ class NeuronLayer:
 
 
     def updateWeight(self, inputs):
-        learning = 0.7
+        learning = 0.2
         for i in range(len(self.neurons)):
             self.neurons[i].adjustWeightWithInput(inputs,learning)
             self.neurons[i].adjustBiasUsingLearningRate(learning)
