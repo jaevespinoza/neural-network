@@ -6,7 +6,7 @@ from class5.Normal import *
 net = NetworkCreator()
 trueinput = []
 trueoutput = []
-pokernet = net.createNet(3, [9,7,9], [9, 9, 7], -3, 3, -1, 1)
+pokernet = net.createNet(3, [9,7,1], [9, 9, 7], -3, 3, -1, 1)
 m = 0
 
 
