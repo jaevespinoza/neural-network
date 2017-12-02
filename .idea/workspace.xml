@@ -2,19 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0d7e13d-4681-492f-b9e6-5d079268f148" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea3/Draw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea3/GeneticAlg.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea3/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea3/tictactoe.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea2/nn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea2/piechart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea2/piechart2.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Creator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Equation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Expression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Function.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/GeneticProg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Node.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/Variable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea4/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/ATS.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/FunWrapper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/Node.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/Number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/Run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/Variable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tarea44/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/Tarea_3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/Network.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/NetworkCreator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/Neuron.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/NeuronLayer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/Normal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/TestingNet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/class5/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/evolucion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/gentemp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/nn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tarea3/tarea3.tar.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-genetic/GeneticAlg.py" afterPath="$PROJECT_DIR$/class-genetic/GeneticAlg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/Network.py" afterPath="$PROJECT_DIR$/class5/Network.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class5/NeuronLayer.py" afterPath="$PROJECT_DIR$/class5/NeuronLayer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarea1/TicTacToe.py" afterPath="$PROJECT_DIR$/tarea1/TicTacToe.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,39 +42,73 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testXor.coverage" NAME="Unittests for TestingNet.TestingNet.testXor Coverage Results" MODIFIED="1504121183484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
-    <SUITE FILE_PATH="coverage/neural_network$Run.coverage" NAME="Run Coverage Results" MODIFIED="1508183385850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
-    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestPerceptronSigmoid_testAnd.coverage" NAME="Unittests for TestingNet.TestPerceptronSigmoid.testAnd Coverage Results" MODIFIED="1504035005548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Run.coverage" NAME="Run Coverage Results" MODIFIED="1512236290611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea44" />
     <SUITE FILE_PATH="coverage/neural_network$Board.coverage" NAME="Board Coverage Results" MODIFIED="1506554209395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
-    <SUITE FILE_PATH="coverage/neural_network$Doctests_in_PLot.coverage" NAME="Doctests in PLot Coverage Results" MODIFIED="1506891674085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
-    <SUITE FILE_PATH="coverage/neural_network$Doctest_draw_neural_net.coverage" NAME="Doctest draw_neural_net Coverage Results" MODIFIED="1510241914125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea3" />
     <SUITE FILE_PATH="coverage/neural_network$Draw.coverage" NAME="Draw Coverage Results" MODIFIED="1510241957930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea3" />
+    <SUITE FILE_PATH="coverage/neural_network$Boards.coverage" NAME="Boards Coverage Results" MODIFIED="1506895498732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testOr.coverage" NAME="Unittests for TestingNet.TestingNet.testOr Coverage Results" MODIFIED="1504066471184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Epoch.coverage" NAME="Epoch Coverage Results" MODIFIED="1504034120037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Normalizer.coverage" NAME="Normalizer Coverage Results" MODIFIED="1506534361007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
+    <SUITE FILE_PATH="coverage/neural_network$Poker.coverage" NAME="Poker Coverage Results" MODIFIED="1504132024210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
+    <SUITE FILE_PATH="coverage/neural_network$LearningSigmoid.coverage" NAME="LearningSigmoid Coverage Results" MODIFIED="1503940096560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class4-sigmoid" />
+    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestPerceptronSigmoid_testAnd.coverage" NAME="Unittests for TestingNet.TestPerceptronSigmoid.testAnd Coverage Results" MODIFIED="1504035005548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
+    <SUITE FILE_PATH="coverage/neural_network$Doctests_in_PLot.coverage" NAME="Doctests in PLot Coverage Results" MODIFIED="1506891674085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
+    <SUITE FILE_PATH="coverage/neural_network$Creator.coverage" NAME="Creator Coverage Results" MODIFIED="1510779573534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea4" />
+    <SUITE FILE_PATH="coverage/neural_network$Doctest_draw_neural_net.coverage" NAME="Doctest draw_neural_net Coverage Results" MODIFIED="1510241914125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea3" />
     <SUITE FILE_PATH="coverage/neural_network$Example.coverage" NAME="Example Coverage Results" MODIFIED="1504106574370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testAnd.coverage" NAME="Unittests for TestingNet.TestingNet.testAnd Coverage Results" MODIFIED="1504122832707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Unittests_in_TestingNet_py.coverage" NAME="Unittests in TestingNet.py Coverage Results" MODIFIED="1504123128629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Plot.coverage" NAME="Plot Coverage Results" MODIFIED="1504381785564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
     <SUITE FILE_PATH="coverage/neural_network$Haberman.coverage" NAME="Haberman Coverage Results" MODIFIED="1504062809978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
     <SUITE FILE_PATH="coverage/neural_network$Network.coverage" NAME="Network Coverage Results" MODIFIED="1504393194492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
-    <SUITE FILE_PATH="coverage/neural_network$Boards.coverage" NAME="Boards Coverage Results" MODIFIED="1506895498732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
     <SUITE FILE_PATH="coverage/neural_network$TicTacToe.coverage" NAME="TicTacToe Coverage Results" MODIFIED="1509741485201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
-    <SUITE FILE_PATH="coverage/neural_network$Unittests_for_TestingNet_TestingNet_testOr.coverage" NAME="Unittests for TestingNet.TestingNet.testOr Coverage Results" MODIFIED="1504066471184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Pie.coverage" NAME="Pie Coverage Results" MODIFIED="1506894208393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
     <SUITE FILE_PATH="coverage/neural_network$GeneticAlg.coverage" NAME="GeneticAlg Coverage Results" MODIFIED="1508186884950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class-genetic" />
-    <SUITE FILE_PATH="coverage/neural_network$Epoch.coverage" NAME="Epoch Coverage Results" MODIFIED="1504034120037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class5" />
     <SUITE FILE_PATH="coverage/neural_network$Sigmoid100.coverage" NAME="Sigmoid100 Coverage Results" MODIFIED="1504031677157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class4-sigmoid" />
-    <SUITE FILE_PATH="coverage/neural_network$Normalizer.coverage" NAME="Normalizer Coverage Results" MODIFIED="1506534361007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea2" />
     <SUITE FILE_PATH="coverage/neural_network$GeneticAlg__1_.coverage" NAME="GeneticAlg (1) Coverage Results" MODIFIED="1510366221601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea3" />
-    <SUITE FILE_PATH="coverage/neural_network$Poker.coverage" NAME="Poker Coverage Results" MODIFIED="1504132024210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea1" />
-    <SUITE FILE_PATH="coverage/neural_network$LearningSigmoid.coverage" NAME="LearningSigmoid Coverage Results" MODIFIED="1503940096560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class4-sigmoid" />
+    <SUITE FILE_PATH="coverage/neural_network$Equation.coverage" NAME="Equation Coverage Results" MODIFIED="1511745652224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tarea4" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneticAlg.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tarea3/GeneticAlg.py">
+      <file leaf-file-name="Variable.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tarea44/Variable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ATS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tarea44/ATS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicTacToe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tarea1/TicTacToe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tarea44/Run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +130,8 @@
       <find>self.ge</find>
       <find>print</find>
       <find>self.r</find>
+      <find>eval</find>
+      <find>constant</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,10 +170,25 @@
         <option value="$PROJECT_DIR$/tarea3/GeneticNeural.py" />
         <option value="$PROJECT_DIR$/tarea1/GeneticAlg.py" />
         <option value="$PROJECT_DIR$/class5/NeuronLayer.py" />
-        <option value="$PROJECT_DIR$/tarea3/Draw.py" />
         <option value="$PROJECT_DIR$/class5/Network.py" />
         <option value="$PROJECT_DIR$/tarea1/TicTacToe.py" />
         <option value="$PROJECT_DIR$/tarea3/GeneticAlg.py" />
+        <option value="$PROJECT_DIR$/tarea4/Equation.py" />
+        <option value="$PROJECT_DIR$/tarea4/Creator.py" />
+        <option value="$PROJECT_DIR$/tarea4/Expression.py" />
+        <option value="$PROJECT_DIR$/tarea4/GeneticProg.py" />
+        <option value="$PROJECT_DIR$/tarea4/Node.py" />
+        <option value="$PROJECT_DIR$/tarea4/Variable.py" />
+        <option value="$PROJECT_DIR$/tarea4/Number.py" />
+        <option value="$PROJECT_DIR$/tarea4/Function.py" />
+        <option value="$PROJECT_DIR$/tarea44/FunWrapper.py" />
+        <option value="$PROJECT_DIR$/tarea44/Number.py" />
+        <option value="$PROJECT_DIR$/tarea44/Variable.py" />
+        <option value="$PROJECT_DIR$/tarea44/Node.py" />
+        <option value="$PROJECT_DIR$/tarea44/Environment.py" />
+        <option value="$PROJECT_DIR$/tarea44/Run.py" />
+        <option value="$PROJECT_DIR$/tarea3/Draw.py" />
+        <option value="$PROJECT_DIR$/tarea44/ATS.py" />
       </list>
     </option>
   </component>
@@ -151,6 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -162,17 +231,7 @@
             <path>
               <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
               <item name="neural-network" type="462c0819:PsiDirectoryNode" />
-              <item name="class5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neural-network" type="462c0819:PsiDirectoryNode" />
               <item name="tarea1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="neural-network" type="462c0819:PsiDirectoryNode" />
-              <item name="tarea2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="neural-network" type="b2602c69:ProjectViewProjectNode" />
@@ -183,7 +242,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,25 +268,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GeneticAlg (1)">
-    <configuration name="Doctest draw_neural_net" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Run">
+    <configuration name="Creator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea3/Draw.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="draw_neural_net" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea4/Creator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="Draw" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,6 +301,24 @@
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea3/Draw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Equation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="neural-network" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea4/Equation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,56 +341,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="GeneticAlg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/class-genetic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea44" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="neural-network" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class-genetic/GeneticAlg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="TicTacToe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tarea1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="neural-network" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea1/TicTacToe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tarea44/Run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.GeneticAlg" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GeneticAlg (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TicTacToe" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctest draw_neural_net" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Draw" />
+      <item index="0" class="java.lang.String" itemvalue="Python.GeneticAlg (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Draw" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Creator" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Equation" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Run" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GeneticAlg (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Draw" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Doctest draw_neural_net" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TicTacToe" />
-        <item index="4" class="java.lang.String" itemvalue="Python.GeneticAlg" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Run" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Equation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Creator" />
+        <item index="3" class="java.lang.String" itemvalue="Python.GeneticAlg (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Draw" />
       </list>
     </recent_temporary>
   </component>
@@ -365,20 +422,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="87" y="17" width="1301" height="772" extended-state="6" />
+    <frame x="87" y="17" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31075698" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625498" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42942944" sideWeight="0.4358186" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44479004" sideWeight="0.5641814" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44479004" sideWeight="0.5641814" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -403,99 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class5/Network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Neuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/SigmoidNeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Example.py" />
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/SigmoidNeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/Sigmoid100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/SigmoidNeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/SigmoidNeuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LearningSigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class5/Epoch.py" />
-    <entry file="file://$PROJECT_DIR$/class4-sigmoid/LogicalSigmoid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tarea1/Haberman.py" />
     <entry file="file:///usr/local/lib/python2.7/dist-packages/unittest2/case.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,13 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarea2/PLot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -639,15 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tarea1/TicTacToe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,24 +603,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-195">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Equation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/GeneticProg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="77" column="54" lean-forward="true" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Variable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="49" column="31" lean-forward="false" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea4/Creator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea44/FunWrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea44/Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea44/tree.png" />
+    <entry file="file://$PROJECT_DIR$/tarea44/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tarea3/Draw.py">
+    <entry file="file://$PROJECT_DIR$/tarea44/Variable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+        <state relative-caret-position="252">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tarea3/GeneticAlg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="2556">
+          <caret line="142" column="33" lean-forward="false" selection-start-line="142" selection-start-column="33" selection-end-line="142" selection-end-column="33" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea3/Draw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea2/PLot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea1/TicTacToe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea44/Run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tarea44/ATS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
